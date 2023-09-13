@@ -1,0 +1,58 @@
+/* This is a stylesheet for Assignment3.html */
+
+/*
+p {
+    color: #ff0000; 
+    background-color: #AAE2CD; 
+  }
+  */
+
+  .specialp {
+    color: #0000FF;
+    background-color:lightgreen; 
+  }
+  #specialid {
+color: #006600;
+background-color: orange;
+  }
+
+  #divexample {
+background-color: rgb(0, 225, 255);
+  } 
+.spanstyle {
+  color: red;  
+}
+a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #ff0000;
+  }
+
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+
+  a:hover {
+    color:yellow;
+    text-decoration: underline;
+  }    
+
+ .makepink {
+  color:pink;
+  background-color: #0000FF;
+ }
+ .makered {
+  color:#ff0000;
+  background-color: antiquewhite;
+ }
+ .makeblue {
+  color: blue;
+  background-color: azure;
+ }
