@@ -1,0 +1,63 @@
+/* This is a stylesheet for Assignment3.html */
+
+/*
+p {
+    color: #ff0000; 
+    background-color: #AAE2CD; 
+  }
+  */
+main{
+  background-color: aqua;
+}
+
+
+  a {
+    color: green;
+  }
+
+
+  a:hover {
+    color:red;
+    text-decoration: underline;
+  }    
+
+ 
+ .makeyellow {
+  color:black;
+  background-color: yellow;
+ }
+ 
+ h1{
+font-weight: bold;
+color: white;
+ }
+
+ h2{
+  font-weight: bold;
+color: aqua;
+ }
+ h4{
+  font-weight: bold;
+  color: yellow;
+  background-color: green;
+   }
+ .makeblack{
+  color:#000000;
+ }
+ .spanstyle {
+  color: orange;  
+}
+#specialid {
+  color:brown;
+}
+
+.specialp{
+  color:black;
+  background-color: greenyellow;
+}
+.makebrown{
+  color:brown;
+}
+#divexample {
+  background-color: yellow;
+}
