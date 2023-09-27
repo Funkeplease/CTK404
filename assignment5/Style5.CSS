@@ -1,0 +1,107 @@
+
+
+body{
+    background-image: url(a5bg.png);
+  }
+
+  nav ul {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0px;
+  }
+  nav li {
+    border: 1px solid blue;
+    width: 150px;
+    margin: 10px;
+    background-color: #0000ff;
+    color: white;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 10px;
+}
+    
+
+nav li a:hover {
+    background-color: aqua;  
+}
+
+.text-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.text-link:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.text-link:active {
+    color: blue;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.text-wrapper {
+    background-color: blue;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.text-wrapper p {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+  /*a:link {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  a:active {
+    color: blue;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color:#ff0000;
+    text-decoration: underline;
+    font-weight: bold;
+  } */
+  #divexample {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+     }
+     
+    .borderbottom{
+        border-bottom: 2px solid #000000;
+    }
+    .boxmodel{
+        border:1px solid #000000;
+        padding: 10px 10px;
+        margin: 10px 10px 10px 10px; 
+        background-color: white;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+       }
