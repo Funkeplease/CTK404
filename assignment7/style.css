@@ -1,0 +1,121 @@
+body {
+  margin: 50px auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 800px;
+  border: 2px solid #000;
+}
+
+header {
+  background-color: darkblue;
+  padding: 10px;
+}
+
+header h1{
+  font-weight: normal;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: aqua;
+}
+
+nav {
+  background-color: darkblue;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  width: 160px;
+  height: 30px;
+  background-color: #006ca5;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aqua;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+main {
+  display: grid;
+}
+
+.wrapper1 {
+  grid-template-columns: 1fr 2fr;
+}
+
+.wrapper2 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.wrapper3 {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 20px;
+}
+
+.grid1 {
+  background-color: lightblue;
+  padding: 0 30px;
+  font-weight:normal;
+  margin: 0 20px 0 0
+}
+
+.grid2 {
+  margin: 0 20px 0 20px;
+}
+
+.grida {
+  background-color: lightblue;
+  padding: 0 30px;
+  font-weight:normal;
+}
+
+.gridb {
+  background-color: white;
+  padding: 0 30px;
+  font-weight:normal;
+  margin-right: 20px
+}
+
+.heading {
+  border-bottom: 2px solid darkblue;
+  color: darkblue;
+  font-weight: normal;
+}
+
+.red a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grid2 img{
+  float: left;
+  margin-right: 20px;
+}
+.gridb img {
+  float: right;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: red;
+  color: #fff;
+  border: 2px solid #000;
+}
+
