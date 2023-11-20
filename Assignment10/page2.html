@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="page2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+</head>
+<body>
+	<nav>
+		<ul>
+		  <li><a href="https://www.linkedin.com/in/funke-ademola-aliu-2620a5113/">About <i class="bi bi-linkedin"> </i></a></i>
+		  </li>
+		  <li><a href="https://funkeaa.com/">Work <i class="bi bi-pc-display"></i>	</a></li>
+		  <li><a href="mailto:ademolaaliufunke@gmail.com">Contact <i class="bi bi-envelope-paper"></i></a></li>
+		</ul>
+	</nav>
+
+	<div class="grid2">
+		<a href="viiv.png" data-fancybox="gallery" data-caption="ViiV">
+			<img class="gridb" src="viiv_thumb.png">
+		</a>
+		<a href="nestle-9-logo-png-transparent.png" data-fancybox="gallery" data-caption="Nestle">
+			<img class="gridb" src="nestle-9-logo-png-transparent.png">
+		</a>
+		<a href="Coca-Cola-Logo.wine.png" data-fancybox="gallery" data-caption="Coke">
+			<img class="gridb" src="Coca-Cola-Logo.wine_thumb.png">
+		</a>
+		<a href="mlz.png" data-fancybox="gallery" data-caption="Mondelez">
+			<img class="gridb" src="mlz copy_thumb.png">
+		</a>
+	</div>
+
+	<div id="myCarousel" class="f-carousel">
+		<div class="f-carousel__slide"><img class="gridb" src="viiv.png"></div>
+		<div class="f-carousel__slide"><img class="gridb" src="nestle-9-logo-png-transparent.png"></div>
+		<div class="f-carousel__slide"><img class="gridb" src="Coca-Cola-Logo.wine.png"></div>
+		<div class="f-carousel__slide"><img class="gridb" src="Coca-Cola-Logo.wine.png"></div>
+	</div>
+
+	<script>
+		Fancybox.bind("[data-fancybox]", {});
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+</body>
+</html>
