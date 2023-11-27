@@ -1,0 +1,50 @@
+body {
+  background-image: url(cg.jpg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playpen Sans', cursive;
+}
+
+          
+nav ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  list-style-type: none;
+} 
+
+nav ul li {
+  padding: 10px;
+  color: #5D7A89;
+  font-size: 20px;
+  width: 160px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #5D7A89; /* x, y, blur, color */
+  margin: 0 auto
+}
+
+nav ul li:hover {
+  background-color:pink;
+}
+
+nav ul li:active {
+  background-color:pink;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #5D7A89;
+  text-transform: uppercase;
+}
+
+.white{
+  color: white;
+}
+
+.mc{
+  text-align: center;
+}
